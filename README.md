@@ -1,8 +1,8 @@
 # BART_128
 This is a BART task with LSL code. The builder version also exists. This experiment was created via PsychoPy ver. 2024.2.4. 
-LSL code uses 3 types of labels for marking
+LSL code uses 3 types of labels for marking. The BART with LSL can be used via bart_exp.py. LSL does not work when the experiment is initiated via the Builder interface. 
 
-The BART works by creating an array of numbers between 1 and 128. At each pump, a random number from this array is selected and deleted. If the number chosen is equal to 1, the balloon pops. If not, participant can continue to pump the balloon and lose their earnings for that balloon. The probability of popping the balloon increases by 1 with each pump. Participant can choose to bank in their earnins any time. 
+The BART works by creating an array of numbers between 1 and 128. At each pump, a random number from this array is selected and deleted. If the number chosen is equal to 1, the balloon pops. If not, participant can continue to pump the balloon and lose their earnings for that balloon. The probability of popping the balloon increases by 1 with each pump. Participant can choose to bank in their earnins any time. The BART without LSL can be used via PsychoPy builder file, bart_exp_TRUE128.psyexp.
 
 1 = balloon start
 
