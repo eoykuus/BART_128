@@ -6,8 +6,10 @@ The BART works by creating an array of numbers between 1 and 128. At each pump, 
 
 1 = balloon start
 
-2 = balloon pop
+2 = balloon pump
 
-3 = balloon banked
+3 = balloon pop
+
+4 = balloon banked
 
 Automatic marking is still new and is in development. The code works via lab recorder, but I need to test its accuracy. 
